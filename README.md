@@ -22,9 +22,7 @@ This project is a simplified 15-bit CPU built from scratch, focusing on core arc
 💾 Separate instruction and data memory
 
 ⚙️ Architecture
-css
-Copy
-Edit
+
 [Instruction Memory] → [Control Unit] ↔ [Datapath]
                                ↓
     [Registers] ←→ [ALU] ←→ [Data Memory]
@@ -51,25 +49,19 @@ You can expand this table with JZ, JNZ, MOV, NOT, INC, DEC, etc. based on your i
 
 🔄 Instruction Format Examples
 R-Type (Register to Register)
-Copy
-Edit
+
 | Opcode (3) | Dest (3) | Src1 (3) | Src2 (3) | Unused (3) |
 I-Type (Immediate / Memory)
-less
-Copy
-Edit
+
+
 | Opcode (3) | Dest (3) | Address/Immediate (9)        |
 J-Type (Jump)
-java
-Copy
-Edit
+
 | Opcode (3) | Jump Address (12)                      |
 🧪 Sample Programs
 Example: Adding two numbers and storing the result
 
-asm
-Copy
-Edit
+
 LOAD R1, 010000000  ; Load value from memory to R1  
 LOAD R2, 010000001  ; Load another value to R2  
 ADD  R3, R1, R2     ; R3 = R1 + R2  
