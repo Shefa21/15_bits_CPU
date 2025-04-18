@@ -1,6 +1,6 @@
 ## 🎞 CPU Simulation
 
-![CPU Simulation](Untitled video - Made with Clipchamp.gif)
+![CPU Simulation](media/cpu_simulation.gif)
 
 🧠 15-bit CPU Design
 Custom CPU design project for CSE332: Computer Architecture & Organization under TNF Ma'am
