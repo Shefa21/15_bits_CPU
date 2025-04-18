@@ -1,6 +1,6 @@
 ## 🎞 CPU Simulation
 
-![CPU Simulation](media/cpu_simulation.gif)
+![CPU Simulation](cpu_simulation.gif.gif)
 
 ---
 
